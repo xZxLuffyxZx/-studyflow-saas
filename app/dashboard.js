@@ -131,7 +131,7 @@ export default function Dashboard() {
       <div className="nav-title">WORKSPACE</div>
       <nav className="nav-stack" aria-label="Main navigation">
         <button type="button" className={`nav-item ${view==='assignments'?'active':''}`} onClick={()=>switchView('assignments')}>
-          <Icon name="grid" size={19}/> <span>Assignment Board</span><Icon name="chevronright" size={16} className="nav-arrow"/>
+          <Icon name="grid" size={19}/> <span>Assignment Board CI/CD Demo</span><Icon name="chevronright" size={16} className="nav-arrow"/>
         </button>
         <button type="button" className={`nav-item ${view==='planner'?'active':''}`} onClick={()=>switchView('planner')}>
           <Icon name="calendar" size={19}/> <span>Study Planner</span><Icon name="chevronright" size={16} className="nav-arrow"/>
